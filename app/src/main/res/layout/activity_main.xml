@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Activty_main"
+    android:background="#bbcaca"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/gambar12"
+            android:layout_marginLeft="20dp"
+            />
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="150dp"
+            android:background="#4de4e1e1"
+            android:drawableLeft="@drawable/ic_collections_white_18dp"
+
+            android:gravity="bottom"
+            android:padding="8dp"
+            android:text="6 PHOTO"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#111"
+
+
+
+            />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:fontFamily="@font/font2"
+        android:text="@string/dummy_value"
+
+        android:textColor="@android:color/background_dark"
+        android:textSize="35sp"
+
+
+
+        />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profil"
+        android:fontFamily="@font/font2"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:lineSpacingMultiplier="1"
+
+
+
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hobie"
+        android:fontFamily="@font/font2"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:lineSpacingMultiplier="1"
+        android:shadowColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button2"
+
+
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skill"
+        android:fontFamily="@font/font2"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:lineSpacingMultiplier="1"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+     android:id="@+id/button3" />
+    <Button
+     android:id="@+id/button4"
+        android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Contac"
+        android:fontFamily="@font/font2"
+        android:background="@drawable/button_bg_rounded_corners"
+    android:lineSpacingMultiplier="1" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Portofolio"
+
+        android:fontFamily="@font/font2"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:lineSpacingMultiplier="1" />
+
+
+
+</LinearLayout>
+</ScrollView>

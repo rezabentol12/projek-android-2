@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        app:cardUseCompatPadding="true"
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        card_view:cardElevation="8dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/phonebook"
+
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#111"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/font2"
+        />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        app:cardUseCompatPadding="true"
+        android:id="@+id/reza"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+
+        card_view:cardElevation="8dp"
+        >
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="96dp"
+            android:layout_height="105dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo3" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/reza1"
+        app:cardUseCompatPadding="true"
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="440dp"
+        card_view:cardElevation="8dp"
+
+        >
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="96dp"
+        android:layout_height="105dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logo4"/>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        app:cardUseCompatPadding="true"
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        card_view:cardElevation="8dp"
+
+        android:layout_marginTop="290dp">
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="96dp"
+        android:layout_height="105dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logo8"
+        />
+    </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>
